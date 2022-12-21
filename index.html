@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <title>你好owo</title>
+  <link rel="stylesheet" href="index_files/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Explanation in JS tab -->
+
+<!-- The two texts -->
+<div id="container">
+	<span id="text1" style="opacity: 0.232268; filter: blur(100px);">你好</span>
+	<span id="text2" style="opacity: 0.989518; filter: blur(0.213552px);">歡迎來到rinfs.co</span>
+</div>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3362384038802615"
+     crossorigin="anonymous"></script>
+<!-- abc -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-3362384038802615"
+     data-ad-slot="8727384322"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- The SVG filter used to create the merging effect -->
+<svg id="filters">
+	<defs>
+		<filter id="threshold">
+			<!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+			<feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140"></feColorMatrix>
+		</filter>
+	</defs>
+</svg>
+<!-- partial -->
+  <script src="index_files/script.js"></script>
+
+
+
+</body></html>
